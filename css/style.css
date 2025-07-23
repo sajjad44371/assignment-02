@@ -1,0 +1,83 @@
+/* font links */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* common styles start  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+:root {
+  --text-color: rgba(0, 0, 0, 0.5);
+  --primary-color: #e9089e;
+  --ash: #8987a1;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1.375rem;
+  font-weight: 400;
+  color: var(--text-color);
+}
+img {
+  width: 100%;
+  display: block;
+}
+.section-title {
+  font-family: "Noto Serif", serif;
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: black;
+}
+.section-title span {
+  color: var(--primary-color);
+}
+.section-desc {
+  margin: 20p 0 50px;
+}
+/* common styles end  */
+
+/* header styles start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto 120px;
+}
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+.menu ul li,
+.cart ul li {
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+.menu ul li a,
+.cart ul li a {
+  text-decoration: none;
+  color: var(--ash);
+  transition: all 0.3s ease-in-out;
+}
+.menu ul li:hover a {
+  border-bottom: 1px solid var(--primary-color);
+  color: black;
+}
+.cart ul {
+  list-style: none;
+}
+.cart ul li:hover a {
+  border-bottom: 1px solid var(--primary-color);
+  color: black;
+}
+/* header styles end */
