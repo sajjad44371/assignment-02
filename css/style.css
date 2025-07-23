@@ -21,6 +21,7 @@ body {
   font-size: 1.375rem;
   font-weight: 400;
   color: var(--text-color);
+  background-color: #f5f8ff;
 }
 img {
   width: 100%;
@@ -69,6 +70,9 @@ img {
   color: var(--ash);
   transition: all 0.3s ease-in-out;
 }
+.cart ul li a{
+  color: black;
+}
 .menu ul li:hover a {
   border-bottom: 1px solid var(--primary-color);
   color: black;
@@ -81,3 +85,30 @@ img {
   color: black;
 }
 /* header styles end */
+
+/* banner styles start  */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 120px;
+}
+.banner-text {
+  flex: 1;
+  padding-top: 160px;
+}
+.banner-text h1 {
+  font-family: "Noto Serif", serif;
+  font-size: 4rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 15px;
+}
+.banner-text h1 span {
+  color: var(--primary-color);
+}
+.banner-image {
+  flex: 1;
+  padding-top: 105px;
+}
+/* banner styles end */
