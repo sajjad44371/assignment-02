@@ -32,12 +32,29 @@ img {
   font-size: 3.125rem;
   font-weight: bold;
   color: black;
+  text-align: center;
 }
 .section-title span {
   color: var(--primary-color);
 }
 .section-desc {
-  margin: 20p 0 50px;
+  width: 888px;
+  margin: 20px auto 50px;
+  text-align: center;
+}
+.btn{
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: var(--primary-color);
+  padding: 20px 55px;
+  border: none;
+  cursor: pointer;
+  transition: all .33s ease-in-out;
+}
+.btn:hover{
+  background-color: #800557;
 }
 /* common styles end  */
 
@@ -47,6 +64,9 @@ img {
   justify-content: space-between;
   align-items: center;
   margin: 30px auto 120px;
+}
+.logo{
+  cursor: pointer;
 }
 .nav-right {
   display: flex;
@@ -101,6 +121,7 @@ img {
   font-family: "Noto Serif", serif;
   font-size: 4rem;
   font-weight: bold;
+  text-transform: uppercase;
   color: black;
   margin-bottom: 15px;
 }
@@ -112,3 +133,33 @@ img {
   padding-top: 105px;
 }
 /* banner styles end */
+
+/* plants styles start */
+.plants{
+  margin-bottom: 200px;
+}
+.plants-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px 20px;
+}
+.plants-item{
+  width: 270px;
+  height: 485px;
+}
+.plants-item-text{
+  padding-top: 20px ;
+  text-align: center;
+}
+.plants-item-text h4{
+  font-size: 1.375rem;
+  font-weight: 500;
+  color: #111111;
+}
+.plants-item-text h5{
+  font-size: 1.375rem;
+  font-weight: bold;
+  color: #111111;
+  padding: 10px 0 20px;
+}
+/* plants styles end */
