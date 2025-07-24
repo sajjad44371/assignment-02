@@ -76,6 +76,46 @@
   .badge{
     display: none;
   }
+
+  /* plants-lover responsive styles  */
+  .plants-lover{
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  .plants-lover-text h2{
+    font-size: 2.8rem;
+  }
+  .badge{
+    display: none;
+  }
+
+  /* latest-deals responsive start */
+  .latest-deals{
+    margin-bottom: 60px;
+  }
+  .latest-deals-container{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .latest-deals-left{
+    flex-direction: column;
+    gap: 30px;
+  
+  }
+  .latest-deals-left-top, .latest-deals-left-bottom, .latest-deals-right{
+    width: 310px;
+    height: 170px;
+  }
+  .content-02{
+    width: 260px;
+    padding: 20px;
+  }
+  .content-02 h5{
+    font-size: 1.25rem;
+  }
+  .content-02 a{
+    font-size: 1rem;
+  }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -133,13 +173,40 @@
   /* plants-lover responsive styles  */
   .plants-lover{
     flex-direction: column;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
   .plants-lover-text h2{
     font-size: 2.8rem;
   }
   .badge{
     display: none;
+  }
+
+  /* latest-deals responsive start */
+  .latest-deals{
+    margin-bottom: 60px;
+  }
+  .latest-deals-container{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .latest-deals-left{
+    flex-direction: column;
+    gap: 30px;
+  
+  }
+  .latest-deals-left-top, .latest-deals-left-bottom, .latest-deals-right{
+    width: 540px;
+    height: 280px;
+  }
+  .content-02{
+    width: 300px;
+  }
+  .content-02 h5{
+    font-size: 1.25rem;
+  }
+  .content-02 a{
+    font-size: 1rem;
   }
 }
 
@@ -189,11 +256,39 @@
   /* plants-lover responsive styles  */
   .plants-lover{
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
   .badge{
     display: none;
   }
+
+  /* latest-deals responsive start */
+  .latest-deals{
+    margin-bottom: 80px;
+  }
+  .latest-deals-container{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .latest-deals-left{
+    flex-direction: column;
+    gap: 30px;
+  
+  }
+  .latest-deals-left-top, .latest-deals-left-bottom, .latest-deals-right{
+    width: 570px;
+    height: 300px;
+  }
+  .content-02{
+    width: 300px;
+  }
+  .content-02 h5{
+    font-size: 1.25rem;
+  }
+  .content-02 a{
+    font-size: 1rem;
+  }
+
 }
 
 /*Large devices (desktops, 992px and up)*/
