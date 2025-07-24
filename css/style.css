@@ -183,6 +183,7 @@ img {
     left: 345px;
     width: 286px;
     height: 286px;
+    animation: spin 10s linear infinite;
 }
 .plants-lover-text{
   flex: 1;
@@ -200,6 +201,12 @@ img {
 .plants-lover-text ul li{
   padding-bottom: 20px;
 }
+/* animation spin  */
+ @keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+        
 /* plants-lover styles end */
 
 /* latest-deals styles start */
