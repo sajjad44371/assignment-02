@@ -292,3 +292,42 @@ img {
 }
 
 /* latest-deals styles end */
+
+/* newsltr styles start */
+.newsltr{
+  background-image: url('../assets/news-letter-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 530px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsltr-content{
+  width: 830px;
+  height: 140px;
+  text-align: center;
+}
+.newsltr-content h2{
+  font-family: "Noto Serif", serif;
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: white;
+}
+#subscribe{
+  width: 640px;
+  padding: 16px 20px;
+  display: inline;
+  outline: none;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  margin-top: 25px;
+}
+.btn-subscribe{
+  width: 180px;
+  margin-left: -6px;
+  padding: 17px 50px 16px 50px;
+}
+/* newsltr styles end */
