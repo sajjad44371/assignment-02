@@ -8,6 +8,15 @@
   body {
     font-size: 0.875rem;
   }
+  .section-desc {
+    width: auto;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+  .btn{
+    font-size: 0.875rem;
+  }
 
   /* header responsive styles  */
   .menu {
@@ -35,6 +44,19 @@
   .banner-image {
     padding-top: 0;
   }
+
+  /* plants responsive styles  */
+  .plants{
+    margin-bottom: 120px;
+  }
+  .plants-container{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px 20px;
+  }
+  .plants-item{
+    width: auto;
+    height: auto;
+  }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -42,6 +64,12 @@
   /* common responsive styles  */
   .container {
     max-width: 540px;
+  }
+  .section-desc {
+    width: 500px;
+  }
+  .section-title {
+    font-size: 2.8rem;
   }
 
   /* header responsive styles  */
@@ -69,6 +97,16 @@
   .banner-image {
     padding-top: 0;
   }
+
+  /* plants responsive styles  */
+  .plants-container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 20px;
+  }
+  .plants-item{
+    width: auto;
+    height: auto;
+  }
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -76,6 +114,9 @@
   /* common responsive styles  */
   .container {
     max-width: 720px;
+  }
+  .section-desc {
+    width: 680px;
   }
 
   /* header responsive styles  */
@@ -97,6 +138,16 @@
   .banner-image {
     padding-top: 0;
   }
+
+  /* plants responsive styles  */
+  .plants-container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 20px;
+  }
+  .plants-item{
+    width: auto;
+    height: auto;
+  }
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -116,13 +167,25 @@
   .banner-image {
     padding-top: 65px;
   }
+
+  /* plants responsive styles  */
+  .plants-item{
+    width: auto;
+    height: auto;
+  }
 }
 
 /* Extra large devices (desktops, 1200px and up)*/
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   /* common responsive styles  */
   .container {
-    max-width: 1140px;
+    max-width: 1100px;
+  }
+
+  /* plants responsive styles  */
+  .plants-item{
+    width: auto;
+    height: auto;
   }
 }
 
