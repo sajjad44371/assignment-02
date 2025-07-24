@@ -83,7 +83,7 @@
     margin-bottom: 60px;
   }
   .plants-lover-text h2{
-    font-size: 2.8rem;
+    font-size: 1.6rem;
   }
   .badge{
     display: none;
@@ -116,6 +116,9 @@
   .content-02 a{
     font-size: 1rem;
   }
+  .shop-now3 a{
+    border-bottom: 1px solid white;
+  }
 
   /* newsltr responsive start */
   .newsltr{
@@ -135,6 +138,21 @@
   .btn-subscribe{
     width: 90px;
     padding: 17px 15px 16px 15px;
+  }
+
+  /* footer responsive styles  */
+  .footer-content{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .footer-content-left{
+    width: 270px;
+  }
+  .footer-content-link1 ul li a, .footer-content-link2 ul li a{
+    font-size: 1rem;
+  }
+  .footer-content-right{
+    width: 210px;
   }
 }
 
@@ -228,6 +246,9 @@
   .content-02 a{
     font-size: 1rem;
   }
+  .shop-now3 a{
+    border-bottom: 1px solid white;
+  }
 
    /* newsltr responsive start */
   .newsltr{
@@ -245,6 +266,21 @@
   .btn-subscribe{
     width: 160px;
     padding: 17px 15px 16px 15px;
+  }
+
+  /* footer responsive styles  */
+  .footer-content{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .footer-content-left{
+    width: 420px;
+  }
+  .footer-content-link1 ul li a, .footer-content-link2 ul li a{
+    font-size: 1.2rem;
+  }
+  .footer-content-right{
+    width: 230px;
   }
 }
 
@@ -326,6 +362,9 @@
   .content-02 a{
     font-size: 1rem;
   }
+  .shop-now3 a{
+    border-bottom: 1px solid white;
+  }
 
   /* newsltr responsive start */
   .newsltr{
@@ -340,6 +379,19 @@
   #subscribe{
     width: 490px;
   }
+
+  /* footer responsive styles  */
+  .footer-content{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .footer-content-left{
+    width: 500px;
+  }
+  .footer-content-right{
+    width: 270px;
+  }
+  
 
 }
 
@@ -371,6 +423,11 @@
   .badge{
     top: -50px;
     left: 260px;
+  }
+
+  /* footer responsive styles  */
+  .footer-content-link1 ul li a, .footer-content-link2 ul li a{
+    font-size: 1.1rem;
   }
   
 }

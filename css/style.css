@@ -272,6 +272,7 @@ img {
   color: white;
   font-size: 1rem;
   font-weight: 600;
+  text-decoration: none;
 }
 .content-02{
   padding: 10px 20px;
@@ -289,6 +290,13 @@ img {
   font-size: 1.75rem;
   font-weight: 600;
   color: white;
+  text-decoration: none;
+}
+.shop-now2 a, .shop-now1 a{
+  border-bottom: 1px solid white;
+}
+.shop-now3 a{
+  border-bottom: 2px solid white;
 }
 
 /* latest-deals styles end */
@@ -331,3 +339,54 @@ img {
   padding: 17px 50px 16px 50px;
 }
 /* newsltr styles end */
+
+/* footer styles start  */
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 80px;
+  margin: 50px 0;
+}
+.footer-content-left{
+  flex: 30%;
+}
+.footer-content-left img{
+  width: auto;
+  margin-bottom: 20px;
+}
+.footer-content-link1{
+  flex: 20%;
+}
+.footer-content-link2{
+  flex: 20%;
+}
+.footer-content-link1 ul li, .footer-content-link2 ul li{
+  margin-bottom: 32px;
+}
+.footer-content-link1 ul li a, .footer-content-link2 ul li a{
+  text-decoration: none;
+  color: var(--ash);
+}
+.footer-content-link1 ul li:last-child, .footer-content-link2 ul li:last-child{
+  margin-bottom: 0;
+}
+.footer-content-right{
+  flex: 30%;
+}
+.footer-content-right ul li a img{
+  width: auto;
+  transition: transform .33s ease-in-out;
+}
+.footer-content-link1 ul, .footer-content-link2 ul, .footer-content-right ul{
+  list-style: none;
+}
+.footer-content-right ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-content-right ul li a img:hover{
+  transform: scale(1.2);
+}
+/* footer styles end  */
