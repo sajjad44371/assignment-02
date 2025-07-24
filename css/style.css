@@ -44,6 +44,7 @@ img {
 }
 .btn{
   width: 100%;
+  font-family: "Inter", sans-serif;
   font-size: 1rem;
   font-weight: 600;
   color: #ffffff;
@@ -332,7 +333,8 @@ img {
 }
 #subscribe{
   width: 640px;
-  padding: 16px 20px;
+  height: 50px;
+  padding: 0 20px;
   display: inline;
   outline: none;
   border: none;
@@ -341,9 +343,10 @@ img {
   margin-top: 25px;
 }
 .btn-subscribe{
+  height: 50px;
   width: 180px;
   margin-left: -6px;
-  padding: 17px 50px 16px 50px;
+  padding: 0 50px;
 }
 /* newsltr styles end */
 
