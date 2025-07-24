@@ -12,10 +12,11 @@
     width: auto;
   }
   .section-title {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .btn{
-    font-size: 0.875rem;
+    font-size: 0.8rem;
+    padding: 10px 15px;
   }
 
   /* header responsive styles  */
@@ -47,15 +48,33 @@
 
   /* plants responsive styles  */
   .plants{
-    margin-bottom: 120px;
+    margin-bottom: 60px;
   }
   .plants-container{
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px 20px;
   }
   .plants-item{
     width: auto;
     height: auto;
+  }
+  .plants-item-text h4{
+    font-size: 1rem;
+  }
+  .plants-item-text h5{
+    font-size: 1rem;
+  }
+
+  /* plants-lover responsive styles  */
+  .plants-lover{
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  .plants-lover-text h2{
+    font-size: 1.6rem;
+  }
+  .badge{
+    display: none;
   }
 }
 
@@ -99,6 +118,9 @@
   }
 
   /* plants responsive styles  */
+  .plants{
+    margin-bottom: 80px;
+  }
   .plants-container{
     grid-template-columns: repeat(2, 1fr);
     gap: 30px 20px;
@@ -106,6 +128,18 @@
   .plants-item{
     width: auto;
     height: auto;
+  }
+
+  /* plants-lover responsive styles  */
+  .plants-lover{
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+  .plants-lover-text h2{
+    font-size: 2.8rem;
+  }
+  .badge{
+    display: none;
   }
 }
 
@@ -140,6 +174,9 @@
   }
 
   /* plants responsive styles  */
+  .plants{
+    margin-bottom: 120px;
+  }
   .plants-container{
     grid-template-columns: repeat(2, 1fr);
     gap: 30px 20px;
@@ -147,6 +184,15 @@
   .plants-item{
     width: auto;
     height: auto;
+  }
+
+  /* plants-lover responsive styles  */
+  .plants-lover{
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .badge{
+    display: none;
   }
 }
 
@@ -173,6 +219,13 @@
     width: auto;
     height: auto;
   }
+
+   /* plants-lover responsive styles  */
+  .badge{
+    top: -50px;
+    left: 260px;
+  }
+  
 }
 
 /* Extra large devices (desktops, 1200px and up)*/
@@ -186,6 +239,12 @@
   .plants-item{
     width: auto;
     height: auto;
+  }
+
+  /* plants-lover responsive styles  */
+  .badge{
+    top: -100px;
+    left: 325px;
   }
 }
 

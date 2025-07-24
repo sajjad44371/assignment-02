@@ -163,3 +163,41 @@ img {
   padding: 10px 0 20px;
 }
 /* plants styles end */
+
+/* plants-lover styles start */
+.plants-lover{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+  margin-bottom: 120px;
+}
+.plants-lover-image{
+  flex: 1;
+  position: relative;
+}
+.badge{
+    position: absolute;
+    top: -125px;
+    left: 345px;
+    width: 286px;
+    height: 286px;
+}
+.plants-lover-text{
+  flex: 1;
+}
+.plants-lover-text h2{
+  font-family: "Noto Serif", serif;
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: black;
+  padding-bottom: 20px;
+}
+.plants-lover-text ul{
+  padding-left: 30px;
+}
+.plants-lover-text ul li{
+  padding-bottom: 20px;
+}
+/* plants-lover styles end */
